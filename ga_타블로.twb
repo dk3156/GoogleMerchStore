@@ -1,0 +1,1073 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1227.1336                               -->
+<workbook original-version='18.1' source-build='2023.3.1 (20233.23.1227.1336)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='ga4_data' inline='true' name='federated.17b3oin1uz2txs1b033t01i3xs4n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ga4_data' name='textscan.1px6ja103iibn3137rs32134hx0h'>
+            <connection class='textscan' directory='/Users/dongjekim/Desktop/sparta/final_project/메인/GA4' filename='ga4_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1px6ja103iibn3137rs32134hx0h' name='ID전처리된데이터.csv' table='[ID전처리된데이터#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='channelGrouping' ordinal='0' />
+            <column datatype='real' name='fullVisitorId' ordinal='1' />
+            <column datatype='integer' name='visitId' ordinal='2' />
+            <column datatype='integer' name='visitNumber' ordinal='3' />
+            <column datatype='datetime' name='visitStartTime' ordinal='4' />
+            <column datatype='string' name='device_browser' ordinal='5' />
+            <column datatype='string' name='totals_sessionQualityDim' ordinal='6' />
+            <column datatype='real' name='totals_newVisits' ordinal='7' />
+            <column datatype='real' name='totals_totalTransactionRevenue' ordinal='8' />
+            <column datatype='real' name='totals_bounces' ordinal='9' />
+            <column datatype='string' name='trafficSource_referralPath' ordinal='10' />
+            <column datatype='string' name='trafficSource_campaign' ordinal='11' />
+            <column datatype='string' name='trafficSource_medium' ordinal='12' />
+            <column datatype='string' name='trafficSource_keyword' ordinal='13' />
+            <column datatype='string' name='trafficSource_adContent' ordinal='14' />
+            <column datatype='boolean' name='trafficSource_isTrueDirect' ordinal='15' />
+            <column datatype='real' name='trafficSource_adwordsClickInfo_page' ordinal='16' />
+            <column datatype='string' name='trafficSource_adwordsClickInfo_slot' ordinal='17' />
+            <column datatype='integer' name='hits_hitNumber' ordinal='18' />
+            <column datatype='integer' name='hits_hour' ordinal='19' />
+            <column datatype='integer' name='hits_minute' ordinal='20' />
+            <column datatype='string' name='hits_eventInfo_eventCategory' ordinal='21' />
+            <column datatype='string' name='hits_eventInfo_eventAction' ordinal='22' />
+            <column datatype='string' name='hits_eventInfo_eventLabel' ordinal='23' />
+            <column datatype='string' name='hits_eventInfo_eventValue' ordinal='24' />
+            <column datatype='string' name='hits_type' ordinal='25' />
+            <column datatype='string' name='hits_referer' ordinal='26' />
+            <column datatype='boolean' name='hits_isExit' ordinal='27' />
+            <column datatype='string' name='hits_page_pageTitle' ordinal='28' />
+            <column datatype='string' name='hits_page_searchKeyword' ordinal='29' />
+            <column datatype='real' name='hits_transaction_transactionRevenue' ordinal='30' />
+            <column datatype='real' name='hits_transaction_transactionTax' ordinal='31' />
+            <column datatype='real' name='hits_transaction_transactionShipping' ordinal='32' />
+            <column datatype='integer' name='hits_eCommerceAction_action_type' ordinal='33' />
+            <column datatype='integer' name='hits_eCommerceAction_step' ordinal='34' />
+            <column datatype='string' name='hits_social_socialNetwork' ordinal='35' />
+            <column datatype='string' name='hits_social_hasSocialSourceReferral' ordinal='36' />
+            <column datatype='string' name='month' ordinal='37' />
+            <column datatype='string' name='date' ordinal='38' />
+            <column datatype='integer' name='day_name' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1px6ja103iibn3137rs32134hx0h' name='ID전처리된데이터.csv' table='[ID전처리된데이터#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='channelGrouping' ordinal='0' />
+            <column datatype='real' name='fullVisitorId' ordinal='1' />
+            <column datatype='integer' name='visitId' ordinal='2' />
+            <column datatype='integer' name='visitNumber' ordinal='3' />
+            <column datatype='datetime' name='visitStartTime' ordinal='4' />
+            <column datatype='string' name='device_browser' ordinal='5' />
+            <column datatype='string' name='totals_sessionQualityDim' ordinal='6' />
+            <column datatype='real' name='totals_newVisits' ordinal='7' />
+            <column datatype='real' name='totals_totalTransactionRevenue' ordinal='8' />
+            <column datatype='real' name='totals_bounces' ordinal='9' />
+            <column datatype='string' name='trafficSource_referralPath' ordinal='10' />
+            <column datatype='string' name='trafficSource_campaign' ordinal='11' />
+            <column datatype='string' name='trafficSource_medium' ordinal='12' />
+            <column datatype='string' name='trafficSource_keyword' ordinal='13' />
+            <column datatype='string' name='trafficSource_adContent' ordinal='14' />
+            <column datatype='boolean' name='trafficSource_isTrueDirect' ordinal='15' />
+            <column datatype='real' name='trafficSource_adwordsClickInfo_page' ordinal='16' />
+            <column datatype='string' name='trafficSource_adwordsClickInfo_slot' ordinal='17' />
+            <column datatype='integer' name='hits_hitNumber' ordinal='18' />
+            <column datatype='integer' name='hits_hour' ordinal='19' />
+            <column datatype='integer' name='hits_minute' ordinal='20' />
+            <column datatype='string' name='hits_eventInfo_eventCategory' ordinal='21' />
+            <column datatype='string' name='hits_eventInfo_eventAction' ordinal='22' />
+            <column datatype='string' name='hits_eventInfo_eventLabel' ordinal='23' />
+            <column datatype='string' name='hits_eventInfo_eventValue' ordinal='24' />
+            <column datatype='string' name='hits_type' ordinal='25' />
+            <column datatype='string' name='hits_referer' ordinal='26' />
+            <column datatype='boolean' name='hits_isExit' ordinal='27' />
+            <column datatype='string' name='hits_page_pageTitle' ordinal='28' />
+            <column datatype='string' name='hits_page_searchKeyword' ordinal='29' />
+            <column datatype='real' name='hits_transaction_transactionRevenue' ordinal='30' />
+            <column datatype='real' name='hits_transaction_transactionTax' ordinal='31' />
+            <column datatype='real' name='hits_transaction_transactionShipping' ordinal='32' />
+            <column datatype='integer' name='hits_eCommerceAction_action_type' ordinal='33' />
+            <column datatype='integer' name='hits_eCommerceAction_step' ordinal='34' />
+            <column datatype='string' name='hits_social_socialNetwork' ordinal='35' />
+            <column datatype='string' name='hits_social_hasSocialSourceReferral' ordinal='36' />
+            <column datatype='string' name='month' ordinal='37' />
+            <column datatype='string' name='date' ordinal='38' />
+            <column datatype='integer' name='day_name' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>channelGrouping</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[channelGrouping]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>channelGrouping</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fullVisitorId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fullVisitorId]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>fullVisitorId</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visitId</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[visitId]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>visitId</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visitNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[visitNumber]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>visitNumber</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>visitStartTime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[visitStartTime]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>visitStartTime</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>device_browser</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[device_browser]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>device_browser</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totals_sessionQualityDim</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[totals_sessionQualityDim]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>totals_sessionQualityDim</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totals_newVisits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[totals_newVisits]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>totals_newVisits</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totals_totalTransactionRevenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[totals_totalTransactionRevenue]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>totals_totalTransactionRevenue</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totals_bounces</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[totals_bounces]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>totals_bounces</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_referralPath</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_referralPath]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_referralPath</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_campaign</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_campaign]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_campaign</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_medium</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_medium]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_medium</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_keyword</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_keyword]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_keyword</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_adContent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_adContent]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_adContent</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_isTrueDirect</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[trafficSource_isTrueDirect]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_isTrueDirect</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_adwordsClickInfo_page</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[trafficSource_adwordsClickInfo_page]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_adwordsClickInfo_page</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>trafficSource_adwordsClickInfo_slot</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[trafficSource_adwordsClickInfo_slot]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>trafficSource_adwordsClickInfo_slot</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_hitNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits_hitNumber]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_hitNumber</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits_hour]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_hour</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_minute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits_minute]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_minute</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eventInfo_eventCategory</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_eventInfo_eventCategory]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eventInfo_eventCategory</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eventInfo_eventAction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_eventInfo_eventAction]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eventInfo_eventAction</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eventInfo_eventLabel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_eventInfo_eventLabel]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eventInfo_eventLabel</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eventInfo_eventValue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_eventInfo_eventValue]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eventInfo_eventValue</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_type]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_type</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_referer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_referer]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_referer</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_isExit</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[hits_isExit]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_isExit</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_page_pageTitle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_page_pageTitle]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_page_pageTitle</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_page_searchKeyword</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_page_searchKeyword]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_page_searchKeyword</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_transaction_transactionRevenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hits_transaction_transactionRevenue]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_transaction_transactionRevenue</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_transaction_transactionTax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hits_transaction_transactionTax]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_transaction_transactionTax</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_transaction_transactionShipping</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hits_transaction_transactionShipping]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_transaction_transactionShipping</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eCommerceAction_action_type</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits_eCommerceAction_action_type]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eCommerceAction_action_type</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_eCommerceAction_step</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits_eCommerceAction_step]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_eCommerceAction_step</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_social_socialNetwork</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_social_socialNetwork]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_social_socialNetwork</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hits_social_hasSocialSourceReferral</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hits_social_hasSocialSourceReferral]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>hits_social_hasSocialSourceReferral</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day_name</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day_name]</local-name>
+            <parent-name>[ID전처리된데이터.csv]</parent-name>
+            <remote-alias>day_name</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='ID전처리된데이터.csv' datatype='table' name='[__tableau_internal_object_id__].[ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4]' role='measure' type='quantitative' />
+      <column caption='Channel Grouping' datatype='string' name='[channelGrouping]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='string' name='[date]' role='dimension' type='nominal' />
+      <column caption='Day Name' datatype='integer' name='[day_name]' role='dimension' type='quantitative' />
+      <column caption='Device Browser' datatype='string' name='[device_browser]' role='dimension' type='nominal' />
+      <column caption='Full Visitor Id' datatype='real' name='[fullVisitorId]' role='dimension' type='ordinal' />
+      <column caption='hits eCommerceAction action type' datatype='integer' name='[hits_eCommerceAction_action_type]' role='measure' type='quantitative' />
+      <column caption='hits eCommerceAction step' datatype='integer' name='[hits_eCommerceAction_step]' role='measure' type='quantitative' />
+      <column caption='hits eventInfo eventAction' datatype='string' name='[hits_eventInfo_eventAction]' role='dimension' type='nominal' />
+      <column caption='hits eventInfo eventCategory' datatype='string' name='[hits_eventInfo_eventCategory]' role='dimension' type='nominal' />
+      <column caption='hits eventInfo eventLabel' datatype='string' name='[hits_eventInfo_eventLabel]' role='dimension' type='nominal' />
+      <column caption='hits eventInfo eventValue' datatype='string' name='[hits_eventInfo_eventValue]' role='dimension' type='nominal' />
+      <column caption='hits hitNumber' datatype='integer' name='[hits_hitNumber]' role='dimension' type='ordinal' />
+      <column caption='Hits Hour' datatype='integer' name='[hits_hour]' role='measure' type='quantitative' />
+      <column caption='hits isExit' datatype='boolean' name='[hits_isExit]' role='dimension' type='nominal' />
+      <column caption='Hits Minute' datatype='integer' name='[hits_minute]' role='measure' type='quantitative' />
+      <column caption='hits page pageTitle' datatype='string' name='[hits_page_pageTitle]' role='dimension' type='nominal' />
+      <column caption='hits page searchKeyword' datatype='string' name='[hits_page_searchKeyword]' role='dimension' type='nominal' />
+      <column caption='Hits Referer' datatype='string' name='[hits_referer]' role='dimension' type='nominal' />
+      <column caption='hits social hasSocialSourceReferral' datatype='string' name='[hits_social_hasSocialSourceReferral]' role='dimension' type='nominal' />
+      <column caption='hits social socialNetwork' datatype='string' name='[hits_social_socialNetwork]' role='dimension' type='nominal' />
+      <column caption='hits transaction transactionRevenue' datatype='real' name='[hits_transaction_transactionRevenue]' role='measure' type='quantitative' />
+      <column caption='hits transaction transactionShipping' datatype='real' name='[hits_transaction_transactionShipping]' role='measure' type='quantitative' />
+      <column caption='hits transaction transactionTax' datatype='real' name='[hits_transaction_transactionTax]' role='measure' type='quantitative' />
+      <column caption='Hits Type' datatype='string' name='[hits_type]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Totals Bounces' datatype='real' name='[totals_bounces]' role='measure' type='quantitative' />
+      <column caption='totals newVisits' datatype='real' name='[totals_newVisits]' role='measure' type='quantitative' />
+      <column caption='totals sessionQualityDim' datatype='string' name='[totals_sessionQualityDim]' role='dimension' type='nominal' />
+      <column caption='totals totalTransactionRevenue' datatype='real' name='[totals_totalTransactionRevenue]' role='measure' type='quantitative' />
+      <column caption='trafficSource adContent' datatype='string' name='[trafficSource_adContent]' role='dimension' type='nominal' />
+      <column caption='trafficSource adwordsClickInfo page' datatype='real' name='[trafficSource_adwordsClickInfo_page]' role='measure' type='quantitative' />
+      <column caption='trafficSource adwordsClickInfo slot' datatype='string' name='[trafficSource_adwordsClickInfo_slot]' role='dimension' type='nominal' />
+      <column caption='trafficSource campaign' datatype='string' name='[trafficSource_campaign]' role='dimension' type='nominal' />
+      <column caption='trafficSource isTrueDirect' datatype='boolean' name='[trafficSource_isTrueDirect]' role='dimension' type='nominal' />
+      <column caption='trafficSource keyword' datatype='string' name='[trafficSource_keyword]' role='dimension' type='nominal' />
+      <column caption='trafficSource medium' datatype='string' name='[trafficSource_medium]' role='dimension' type='nominal' />
+      <column caption='trafficSource referralPath' datatype='string' name='[trafficSource_referralPath]' role='dimension' type='nominal' />
+      <column caption='Visit Id' datatype='integer' name='[visitId]' role='dimension' type='ordinal' />
+      <column caption='Visit Number' datatype='integer' name='[visitNumber]' role='dimension' type='ordinal' />
+      <column caption='Visit Start Time' datatype='datetime' name='[visitStartTime]' role='dimension' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ID전처리된데이터.csv' id='ID전처리된데이터.csv_D1DB3002E37F4FFF9FFC9FAAD628FCA4'>
+            <properties context=''>
+              <relation connection='textscan.1px6ja103iibn3137rs32134hx0h' name='ID전처리된데이터.csv' table='[ID전처리된데이터#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='channelGrouping' ordinal='0' />
+                  <column datatype='real' name='fullVisitorId' ordinal='1' />
+                  <column datatype='integer' name='visitId' ordinal='2' />
+                  <column datatype='integer' name='visitNumber' ordinal='3' />
+                  <column datatype='datetime' name='visitStartTime' ordinal='4' />
+                  <column datatype='string' name='device_browser' ordinal='5' />
+                  <column datatype='string' name='totals_sessionQualityDim' ordinal='6' />
+                  <column datatype='real' name='totals_newVisits' ordinal='7' />
+                  <column datatype='real' name='totals_totalTransactionRevenue' ordinal='8' />
+                  <column datatype='real' name='totals_bounces' ordinal='9' />
+                  <column datatype='string' name='trafficSource_referralPath' ordinal='10' />
+                  <column datatype='string' name='trafficSource_campaign' ordinal='11' />
+                  <column datatype='string' name='trafficSource_medium' ordinal='12' />
+                  <column datatype='string' name='trafficSource_keyword' ordinal='13' />
+                  <column datatype='string' name='trafficSource_adContent' ordinal='14' />
+                  <column datatype='boolean' name='trafficSource_isTrueDirect' ordinal='15' />
+                  <column datatype='real' name='trafficSource_adwordsClickInfo_page' ordinal='16' />
+                  <column datatype='string' name='trafficSource_adwordsClickInfo_slot' ordinal='17' />
+                  <column datatype='integer' name='hits_hitNumber' ordinal='18' />
+                  <column datatype='integer' name='hits_hour' ordinal='19' />
+                  <column datatype='integer' name='hits_minute' ordinal='20' />
+                  <column datatype='string' name='hits_eventInfo_eventCategory' ordinal='21' />
+                  <column datatype='string' name='hits_eventInfo_eventAction' ordinal='22' />
+                  <column datatype='string' name='hits_eventInfo_eventLabel' ordinal='23' />
+                  <column datatype='string' name='hits_eventInfo_eventValue' ordinal='24' />
+                  <column datatype='string' name='hits_type' ordinal='25' />
+                  <column datatype='string' name='hits_referer' ordinal='26' />
+                  <column datatype='boolean' name='hits_isExit' ordinal='27' />
+                  <column datatype='string' name='hits_page_pageTitle' ordinal='28' />
+                  <column datatype='string' name='hits_page_searchKeyword' ordinal='29' />
+                  <column datatype='real' name='hits_transaction_transactionRevenue' ordinal='30' />
+                  <column datatype='real' name='hits_transaction_transactionTax' ordinal='31' />
+                  <column datatype='real' name='hits_transaction_transactionShipping' ordinal='32' />
+                  <column datatype='integer' name='hits_eCommerceAction_action_type' ordinal='33' />
+                  <column datatype='integer' name='hits_eCommerceAction_step' ordinal='34' />
+                  <column datatype='string' name='hits_social_socialNetwork' ordinal='35' />
+                  <column datatype='string' name='hits_social_hasSocialSourceReferral' ordinal='36' />
+                  <column datatype='string' name='month' ordinal='37' />
+                  <column datatype='string' name='date' ordinal='38' />
+                  <column datatype='integer' name='day_name' ordinal='39' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Sales Overview</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ga4_data' name='federated.17b3oin1uz2txs1b033t01i3xs4n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17b3oin1uz2txs1b033t01i3xs4n'>
+            <column caption='hits transaction transactionRevenue' datatype='real' name='[hits_transaction_transactionRevenue]' role='measure' type='quantitative' />
+            <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+            <column-instance column='[month]' derivation='None' name='[none:month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[hits_transaction_transactionRevenue]' derivation='Sum' name='[sum:hits_transaction_transactionRevenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.17b3oin1uz2txs1b033t01i3xs4n].[sum:hits_transaction_transactionRevenue:qk]</rows>
+        <cols>[federated.17b3oin1uz2txs1b033t01i3xs4n].[none:month:nk]</cols>
+      </table>
+      <simple-id uuid='{69F8A1BC-2C8D-482D-A3DF-8C77CCFEDBBB}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17b3oin1uz2txs1b033t01i3xs4n].[none:month:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C7FCB756-6F74-40FD-BCFC-67909150C380}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
